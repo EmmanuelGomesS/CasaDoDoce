@@ -1,0 +1,5 @@
+Back-end feito em "SpringBoot" na IDE do "Eclipson", fazer o improte do projeto em "Maven", inicia na 
+ide a aplicação no pacote "com.doces.apirest" e roda o arquivo java nele que já vai criar o
+database no banco e as tabelas, o banco de dados usei o "Postgree" para armazenar os dados, e como 
+não finalizei a conexção com o front-end usei o "Postman Agent" para lançar os dados no banco de dados, 
+usando a url no postman "http://localhost:8080/doces"
