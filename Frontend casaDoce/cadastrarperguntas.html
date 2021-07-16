@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html ng-app="cadastrarPergunta">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Casa do Doce</title>
+        <link rel="stylesheet" type="text/css" href="model/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="model/angularjs/angular.js"></script>
+        <script src="model/angularjs/angular-route.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/controllers/novaPerguntaCtrl.js"></script>
+        <script src="js/controllers/detalhesPerguntaCtrl.js"></script>
+        <script src="js/controllers/logarseCtrl.js"></script>
+        <script src="js/services/perguntasAPIService.js"></script>
+        <script src="js/config/routeConfig.js"></script>
+        <script src="js/value/configValue.js"></script>
+
+    </head>
+    <body>
+      <div class="menu-wrap">
+        <h2 style="text-align: center;" style="margin-top: 50px;"></h2>
+    </div>
+    <div class="menu-wrap">
+      <p style="text-align: left; ">
+              <img src="img/doce.png" style="width: 220px" id="center"/>
+      </p>
+    <div class="menu">
+      <ul>
+        <li><a href="home.html" class="active">Inicio</a></li>
+        <li><a href="listarperguntas.html#/perguntas/page/0">Seu Cardápio</a></li>
+        <li><a href="cadastrarperguntas.html#/novaPergunta">Dúvidas sobre Doces</a></li>
+        <li><a href="preparandoAmbiente.html">Informações Contato</a></li>
+        <li><a href="login.html#/logarse">Logar-se</a></li>
+
+      </ul>
+    </div>
+  </div>
+
+    <div class="jumbotron4">
+        <div ng-view></div>
+
+    </div>
+        <div class="primary-footer">
+          <div class="footer-wrap">
+            <div class="footer">
+              <div class="page">
+
+                <div class="panel mar-right30">
+                  <div class="title">
+                    <h1>   </h1>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+    </body>
+</html>
